@@ -19,7 +19,7 @@ module.exports = {
 	},
 	3: { // Berserker
 		1: false, // Combo Attack
-		24: false, // Evasive Smash
+		//24: false, // Evasive Smash // only roll is multi directional?
 		29: false, // Evasive Roll
 	},
 	4: { // Sorcerer
@@ -36,7 +36,8 @@ module.exports = {
 		38: false, // Backstep
 		},
 	7: { // Mystic
-		17: false, // Teleport Jaunt
+        17: false, // Teleport Jaunt
+        44: false, // Mass Teleport
 	},
 	8: { // Reaper
 		1: false, // Spiral Barrage

@@ -5,21 +5,33 @@ const fs = require('fs'),
     archivepath = filepath + '.gz',
     decompress = zlib.createGunzip()
 
-try {
-    // check if ahk.exe already extracted
-    fs.accessSync(filepath, fs.constants.F_OK)
-}
-catch (err) {
-    // if not, extract ahk.exe
-    if (err) {
-        let readstream = fs.createReadStream(archivepath),
-            writestream = fs.createWriteStream(filepath)
-        readstream.pipe(decompress).pipe(writestream)
-    }
-}
-
 // launch no-directional-skills
-module.exports = function noDirectionalSkillsLauncher(dispatch) {    
-    let noDirectionalSkills = require('./lib/no-directional-skills.js')
-    noDirectionalSkills(dispatch)
+module.exports = function noDirectionalSkillsLauncher(dispatch) {
+
+    let extracting = false
+
+    // check for ahk.exe
+    function checkDependency() {
+        try {
+            // check if ahk.exe already extracted
+            fs.accessSync(filepath, fs.constants.F_OK)
+            // if so, load module
+            let noDirectionalSkills = require('./lib/no-directional-skills.js')
+            noDirectionalSkills(dispatch)
+        }
+        catch (err) {
+            // if not, extract ahk.exe
+            if (!extracting) {
+                extracting = true
+                let readstream = fs.createReadStream(archivepath),
+                    writestream = fs.createWriteStream(filepath)
+                readstream.pipe(decompress).pipe(writestream)
+            }
+            // recheck after 1s
+            setTimeout(checkDependency, 1000)
+        }
+    }
+
+    checkDependency()
+
 }

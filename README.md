@@ -8,4 +8,4 @@ See preview: (http://i.imgur.com/nIWqQDZ.mp4)
 ## Known Issues
 * Only works if using default directional keys: `WASD`
 * Holding down all 4 movement keys will make directional skills cast North.
-* Does not *currently* work for skills that do not use the `cStartSkill` packet (ie: Teleport Jaunt)
+* Does not *currently* work for skills that do not use the `cStartSkill` packet (don't know if any exist)
