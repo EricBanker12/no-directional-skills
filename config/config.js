@@ -11,7 +11,10 @@ module.exports = {
      },
     1: {	// Lancer
         1: true,	// Combo Attack
-        26: true,	// Backstep
+        26: {		// Backstep
+            0: true,
+            backwards: true,
+        },
     },
     2: {	// Slayer
         1: true,	// Combo Attack
@@ -25,18 +28,36 @@ module.exports = {
         29: true,	// Evasive Roll
     },
     4: {	// Sorcerer
-        7: true,	// Backstep
-        18: true,	// Glacial Retreat
+        7: {		// Backstep
+            0: true,
+            backwards: true,
+        },
+        18: {		// Glacial Retreat
+            0: true,
+            backwards: true,
+        },
         26: true,	// Teleport Jaunt
     },
     5: {	// Archer
-        6: true,	// Backstep
-        16: true,	// Breakaway Bolt
+        6: {		// Backstep
+            0: true,
+            backwards: true,
+        },
+        16: {		// Breakaway Bolt
+            0: true,
+            backwards: true,
+        },
     },
     6: {	// Priest
-        26: true,	// Fiery Escape
-        38: true,	// Backstep
+        26: {		// Fiery Escape
+            0: true,
+            backwards: true,
         },
+        38: {		// Backstep
+            0: true,
+            backwards: true,
+        },
+    },
     7: {	// Mystic
         17: true,	// Teleport Jaunt
         44: true,	// Mass Teleport
@@ -61,5 +82,5 @@ module.exports = {
     12: {	// Valkyrie
         1: true,	// Slash
         14: true,	// Evasion
-    }
+    },
 }
