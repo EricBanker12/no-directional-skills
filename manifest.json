@@ -1,11 +1,11 @@
 {
 	"files": {
 		"index.js": "dee6fef909ab53f1b1ab3ef4d2f153a261be62299eb0d544849a24a2f382f528",
-		"README.md": "ff9f8d5bc8d8ae6f4b4c16f3037e3856f96cfdc2558690ddd9e80b3522df170d",
+		"README.md": "9c1879b714adbfe9842931a40ecbf5de581a72668165208c594e1e60b39ced4f",
 		"module.json": "a6f3e2e85bbf74128524718b556e1841769e8216b1e50fb21d139c55ac18bd4b",
 		"config/config.js": {
 			"overwrite": false,
-			"hash": "7e504354ad7bbcee9bf4204d2808e8cb488af4b50f89e96a15c891584cb01c75"
+			"hash": "49cdce5f315bc17fbb902a8512925c1ba19c6ae6f0c529253b2f8284e8d681d0"
 		},
 		"lib/no-directional-skills.js": "66eafd4e9c3303a7e2bb64b4cfc393883685f214408857891844732d799e9f1f",
 		"lib/ahk.js": "15b0d0af0a7b31f32d745aa941a2ac18ce6a5d653243541ad32fab4d9b519796",
