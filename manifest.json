@@ -5,10 +5,10 @@
 		"module.json": "a6f3e2e85bbf74128524718b556e1841769e8216b1e50fb21d139c55ac18bd4b",
 		"config/config.js": {
 			"overwrite": false,
-			"hash": "f61c0f96cb2e64d71f50c7c3bfa2219e9243bb082cc674d242acb01a42a4e3bb"
+			"hash": "7e504354ad7bbcee9bf4204d2808e8cb488af4b50f89e96a15c891584cb01c75"
 		},
-		"lib/no-directional-skills.js": "9e5f21c64c8ca1ac6adb81bfca7bad221b36ba1d379c98061880799c09f2f517",
-		"lib/ahk.js": "2cd1c7de8a53910fb15303c68fd70330f68c0bb3e5173a7d31183140eb922a0c",
+		"lib/no-directional-skills.js": "66eafd4e9c3303a7e2bb64b4cfc393883685f214408857891844732d799e9f1f",
+		"lib/ahk.js": "15b0d0af0a7b31f32d745aa941a2ac18ce6a5d653243541ad32fab4d9b519796",
 		"lib/bin/ahk.exe.gz": "5ba2715e8b7d64049f1523dfe5a2a0de52004b269d379e4a2c93c568907f55d1"
 	},
 	"defs": {
