@@ -1,19 +1,19 @@
 {
 	"files": {
-		"index.js": "c49654c4d6d7c37213e1f9c13a00929e00c2b75afb6d183bb9cc6f0aeb62dbf4",
 		"README.md": "9af01fce965127f7ad811bf0e8863326b47d0f270429e9e9408993c5d7ba1258",
-		"module.json": "6f8fc2ef7e8f7abd2d61cbb2ddc3a6a2c3a020b023ecf943ff1937e79edfa617",
+		"README.url": "d1c95a1d9006b6a385bec88623de2851f524294cf5545f81b7329883f29b0efe",
 		"config/config.js": {
 			"overwrite": false,
 			"hash": "bfb942dcc0a561853f27c564d13132f962e235fbf90af5cf8d1a3bd5d7c66310"
 		},
-		"lib/no-directional-skills.js": "ee0a92913c6cf86e7558c8eee67a1690391755308cddc544f945013f578c5629",
+		"index.js": "5b49150c20ef087efd286e6b99a66a07b13e8f268c767437823392e60540cae9",
 		"lib/ahk.js": "96b84c128c8221aff2d4c40814411a217bd2367e45c29f0892ba94d9e5f39e60",
 		"lib/bin/ahk.exe.gz": "5e406fd526cedb869ebb5fcf1f77d32a3d233f1577a28c05f17b02ffd898a416",
-		"README.url": "d1c95a1d9006b6a385bec88623de2851f524294cf5545f81b7329883f29b0efe"
+		"lib/no-directional-skills.js": "6884a41e9d40b2f0106d86663e6faf76cd33946f75ea56b6a65669bdd3fe491c",
+		"module.json": "e373ffb39fb51b6c6868b6cb396585edb7f4b7c0d8d8ac3e9790f127b86ae056"
 	},
 	"defs": {
-		"C_START_SKILL": 5,
+		"C_START_SKILL": 7,
 		"S_LOGIN": 10
 	}
 }
