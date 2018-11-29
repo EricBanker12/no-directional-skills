@@ -8,12 +8,10 @@ const fs = require('fs'),
 // launch no-directional-skills
 module.exports = function noDirectionalSkillsLauncher(dispatch) {
 
-    /*
-    if (dispatch.base.majorPatchVersion >= 74) {
+    if (dispatch.base.majorPatchVersion > 79) {
         console.log('no-directional-skills - KTera definitions unsupported')
         return
     }
-    */
 
     let extracting = false
 
