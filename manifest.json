@@ -1,6 +1,6 @@
 {
 	"files": {
-		"README.md": "9af01fce965127f7ad811bf0e8863326b47d0f270429e9e9408993c5d7ba1258",
+		"README.md": "1bd10dd46898fded8486cb1fc77187ee18656c0fcc05251668dba48f0f2708a6",
 		"README.url": "d1c95a1d9006b6a385bec88623de2851f524294cf5545f81b7329883f29b0efe",
 		"config/config.js": {
 			"overwrite": false,
@@ -9,7 +9,7 @@
 		"index.js": "2f9e7663935c2c526684b18d5c23feac6e802a355556453d3307738599023d1a",
 		"lib/ahk.js": "96b84c128c8221aff2d4c40814411a217bd2367e45c29f0892ba94d9e5f39e60",
 		"lib/bin/ahk.exe.gz": "5e406fd526cedb869ebb5fcf1f77d32a3d233f1577a28c05f17b02ffd898a416",
-		"lib/no-directional-skills.js": "644a700dfb846007384b146598155fbc5855c49108294177591aab9468f701a4",
+		"lib/no-directional-skills.js": "584e607d43ee7a51bd170b51a7e01433ec8a7aaf840fa616883c37f10f7a5ad7",
 		"module.json": "e373ffb39fb51b6c6868b6cb396585edb7f4b7c0d8d8ac3e9790f127b86ae056"
 	},
 	"defs": {
