@@ -20,13 +20,18 @@ module.exports = function noDirectionalSkillsLauncher(dispatch) {
         try {
             // check if ahk.exe already extracted
             fs.accessSync(filepath, fs.constants.F_OK)
+            console.log('Dependencies found.')
             // if so, load module
             let noDirectionalSkills = require('./lib/no-directional-skills.js')
+            console.log('Loading module')
             noDirectionalSkills(dispatch)
+            console.log('Module loaded')
         }
         catch (err) {
+            console.log(err)
             // if not, extract ahk.exe
             if (!extracting) {
+                console.log('Extracting dependencies.')
                 extracting = true
                 let readstream = fs.createReadStream(archivepath),
                     writestream = fs.createWriteStream(filepath)
