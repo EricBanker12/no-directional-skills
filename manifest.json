@@ -1,19 +1,19 @@
 {
-	"files": {
-		"README.md": "1bd10dd46898fded8486cb1fc77187ee18656c0fcc05251668dba48f0f2708a6",
-		"README.url": "d1c95a1d9006b6a385bec88623de2851f524294cf5545f81b7329883f29b0efe",
-		"config/config.js": {
-			"overwrite": false,
-			"hash": "bfb942dcc0a561853f27c564d13132f962e235fbf90af5cf8d1a3bd5d7c66310"
-		},
-		"index.js": "2f9e7663935c2c526684b18d5c23feac6e802a355556453d3307738599023d1a",
-		"lib/ahk.js": "96b84c128c8221aff2d4c40814411a217bd2367e45c29f0892ba94d9e5f39e60",
-		"lib/bin/ahk.exe.gz": "5e406fd526cedb869ebb5fcf1f77d32a3d233f1577a28c05f17b02ffd898a416",
-		"lib/no-directional-skills.js": "584e607d43ee7a51bd170b51a7e01433ec8a7aaf840fa616883c37f10f7a5ad7",
-		"module.json": "e373ffb39fb51b6c6868b6cb396585edb7f4b7c0d8d8ac3e9790f127b86ae056"
-	},
-	"defs": {
-		"C_START_SKILL": 7,
-		"S_LOGIN": 10
-	}
+    "files": {
+        "README.md": "1bd10dd46898fded8486cb1fc77187ee18656c0fcc05251668dba48f0f2708a6",
+        "README.url": "d1c95a1d9006b6a385bec88623de2851f524294cf5545f81b7329883f29b0efe",
+        "config/config.js": {
+            "overwrite": false,
+            "hash": "bfb942dcc0a561853f27c564d13132f962e235fbf90af5cf8d1a3bd5d7c66310"
+        },
+        "index.js": "2f9e7663935c2c526684b18d5c23feac6e802a355556453d3307738599023d1a",
+        "lib/ahk.js": "96b84c128c8221aff2d4c40814411a217bd2367e45c29f0892ba94d9e5f39e60",
+        "lib/bin/ahk.exe.gz": "5e406fd526cedb869ebb5fcf1f77d32a3d233f1577a28c05f17b02ffd898a416",
+        "lib/no-directional-skills.js": "dffd6afbfb514768b472b43215be493cb27906d549f27a35f7bcbf0390b4e3c3",
+        "module.json": "8d20642c7e4e51f3912ae6778c5747b8a968b3ff16b364671df9bcd841038656"
+    },
+    "defs": {
+        "C_START_SKILL": 7,
+        "S_LOGIN": 12
+    }
 }

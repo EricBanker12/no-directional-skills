@@ -1,5 +1,8 @@
 {
-	"disableAutoUpdate": false,
-	"servers": ["https://raw.githubusercontent.com/Mister-Kay/no-directional-skills/master/"],
-	"supportUrl": "https://github.com/Mister-Kay/no-directional-skills/issues"
+    "disableAutoUpdate": false,
+    "servers": ["https://raw.githubusercontent.com/Mister-Kay/no-directional-skills/master/"],
+    "supportUrl": "https://github.com/Mister-Kay/no-directional-skills/issues",
+    "name": "no-directional-skills",
+    "author": "Mister-Kay",
+    "description": "Removes directional input on some skills, so they always go relative to the camera target."
 }
