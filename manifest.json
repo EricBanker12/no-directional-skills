@@ -6,14 +6,14 @@
             "overwrite": false,
             "hash": "bfb942dcc0a561853f27c564d13132f962e235fbf90af5cf8d1a3bd5d7c66310"
         },
-        "index.js": "080cb6ff68eaa9e2c08fee5773dbe870a1f2e61d726d755c5e6677ff3b884204",
+        "index.js": "0b7d45ffe09375fa4ab48da83ed2716db3071831ee7e2b91aab24925b8276e21",
         "lib/ahk.js": "96b84c128c8221aff2d4c40814411a217bd2367e45c29f0892ba94d9e5f39e60",
         "lib/bin/ahk.exe.gz": "5e406fd526cedb869ebb5fcf1f77d32a3d233f1577a28c05f17b02ffd898a416",
-        "lib/no-directional-skills.js": "dffd6afbfb514768b472b43215be493cb27906d549f27a35f7bcbf0390b4e3c3",
+        "lib/no-directional-skills.js": "6c2e5ab96cbea0d6a5f4a8be4b00ea8061f4e602b0b1d6e2dfc42ea54a5b0d60",
         "module.json": "8d20642c7e4e51f3912ae6778c5747b8a968b3ff16b364671df9bcd841038656"
     },
     "defs": {
         "C_START_SKILL": 7,
-        "S_LOGIN": 12
+        "S_LOGIN": [12,13]
     }
 }
